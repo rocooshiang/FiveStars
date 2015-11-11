@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		F26EDB2B1B4967E70099F6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EDB2A1B4967E70099F6D9 /* main.m */; };
 		F26EDB2E1B4967E70099F6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EDB2D1B4967E70099F6D9 /* AppDelegate.m */; };
-		F26EDB311B4967E70099F6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EDB301B4967E70099F6D9 /* ViewController.m */; };
-		F26EDB341B4967E70099F6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26EDB321B4967E70099F6D9 /* Main.storyboard */; };
 		F26EDB361B4967E70099F6D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26EDB351B4967E70099F6D9 /* Images.xcassets */; };
-		F26EDB391B4967E70099F6D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26EDB371B4967E70099F6D9 /* LaunchScreen.xib */; };
 		F26EDB451B4967E70099F6D9 /* FiveStarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EDB441B4967E70099F6D9 /* FiveStarsTests.m */; };
+		F276F2231B4A35D30086138C /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F276F2221B4A35D30086138C /* RateView.m */; };
+		F276F2271B4A35FE0086138C /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = F276F2251B4A35FE0086138C /* First.m */; };
+		F276F2281B4A35FE0086138C /* First.xib in Resources */ = {isa = PBXBuildFile; fileRef = F276F2261B4A35FE0086138C /* First.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,15 @@
 		F26EDB2A1B4967E70099F6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F26EDB2C1B4967E70099F6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F26EDB2D1B4967E70099F6D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F26EDB2F1B4967E70099F6D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F26EDB301B4967E70099F6D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F26EDB331B4967E70099F6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26EDB351B4967E70099F6D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F26EDB381B4967E70099F6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F26EDB3E1B4967E70099F6D9 /* FiveStarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveStarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26EDB431B4967E70099F6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26EDB441B4967E70099F6D9 /* FiveStarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveStarsTests.m; sourceTree = "<group>"; };
+		F276F2211B4A35D30086138C /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		F276F2221B4A35D30086138C /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		F276F2241B4A35FE0086138C /* First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		F276F2251B4A35FE0086138C /* First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
+		F276F2261B4A35FE0086138C /* First.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +82,9 @@
 		F26EDB271B4967E70099F6D9 /* FiveStars */ = {
 			isa = PBXGroup;
 			children = (
-				F26EDB2C1B4967E70099F6D9 /* AppDelegate.h */,
-				F26EDB2D1B4967E70099F6D9 /* AppDelegate.m */,
-				F26EDB2F1B4967E70099F6D9 /* ViewController.h */,
-				F26EDB301B4967E70099F6D9 /* ViewController.m */,
-				F26EDB321B4967E70099F6D9 /* Main.storyboard */,
+				F276F2201B4A35A00086138C /* View */,
+				F276F21F1B4A32FE0086138C /* AppDelegate */,
 				F26EDB351B4967E70099F6D9 /* Images.xcassets */,
-				F26EDB371B4967E70099F6D9 /* LaunchScreen.xib */,
 				F26EDB281B4967E70099F6D9 /* Supporting Files */,
 			);
 			path = FiveStars;
@@ -117,6 +114,27 @@
 				F26EDB431B4967E70099F6D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F276F21F1B4A32FE0086138C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F26EDB2C1B4967E70099F6D9 /* AppDelegate.h */,
+				F26EDB2D1B4967E70099F6D9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F276F2201B4A35A00086138C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F276F2211B4A35D30086138C /* RateView.h */,
+				F276F2221B4A35D30086138C /* RateView.m */,
+				F276F2241B4A35FE0086138C /* First.h */,
+				F276F2251B4A35FE0086138C /* First.m */,
+				F276F2261B4A35FE0086138C /* First.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26EDB341B4967E70099F6D9 /* Main.storyboard in Resources */,
-				F26EDB391B4967E70099F6D9 /* LaunchScreen.xib in Resources */,
+				F276F2281B4A35FE0086138C /* First.xib in Resources */,
 				F26EDB361B4967E70099F6D9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26EDB311B4967E70099F6D9 /* ViewController.m in Sources */,
 				F26EDB2E1B4967E70099F6D9 /* AppDelegate.m in Sources */,
 				F26EDB2B1B4967E70099F6D9 /* main.m in Sources */,
+				F276F2271B4A35FE0086138C /* First.m in Sources */,
+				F276F2231B4A35D30086138C /* RateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +260,6 @@
 			targetProxy = F26EDB3F1B4967E70099F6D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F26EDB321B4967E70099F6D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F26EDB331B4967E70099F6D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F26EDB371B4967E70099F6D9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F26EDB381B4967E70099F6D9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F26EDB461B4967E70099F6D9 /* Debug */ = {
@@ -347,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FiveStars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FiveStars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +417,7 @@
 				F26EDB4A1B4967E70099F6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F26EDB4B1B4967E70099F6D9 /* Build configuration list for PBXNativeTarget "FiveStarsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +426,7 @@
 				F26EDB4D1B4967E70099F6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
