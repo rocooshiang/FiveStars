@@ -1,6 +1,6 @@
 # FiveStars
 
-Screen Shots :
+Screenshot :
 ------------
 ![Xcode indent settings](FiveStars.png)
 
